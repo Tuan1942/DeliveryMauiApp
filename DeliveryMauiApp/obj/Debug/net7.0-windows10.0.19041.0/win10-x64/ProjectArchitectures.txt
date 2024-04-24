@@ -1,0 +1,1 @@
+D:\repos\ShoesStoreMauiApp\DeliveryMauiApp\DeliveryMauiApp.csproj;x64

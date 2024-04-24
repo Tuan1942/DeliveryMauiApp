@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ShoesStoreMauiApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ShoesStoreMauiApp">
+    <TabBar>
+        <!-- Tab "Tài khoản" -->
+        <Tab Title="Tài khoản" Route="Account">
+            <ShellContent ContentTemplate="{DataTemplate local:Login}" />
+        </Tab>
+
+        <!-- Tab "Đơn đang giao" -->
+        <Tab Title="Đơn đang giao" Route="MainPage">
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
+        </Tab>
+
+        <!-- Tab "Tất cả đơn hàng" -->
+        <Tab Title="Tất cả đơn hàng" Route="OrderList">
+            <ShellContent ContentTemplate="{DataTemplate local:OrderList}" />
+        </Tab>
+    </TabBar>
+</Shell>
